@@ -4,7 +4,7 @@
     "description": "Angular4 Seed with Webpack by David Beretta",
     "repository": {
         "type": "git",
-        "url": "https://github.com"
+        "url": "https://github.com/davidberetta/angular4-webpack-seed.git"
     },
     "main": "./src/main.ts",
     "scripts": {
