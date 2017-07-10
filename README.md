@@ -1,8 +1,11 @@
 # angular4-webpack-seed
 
 ## Pre-requisites:
-Make sure node and npm are installed and on your PATH
+Make sure nodejs and npm are installed and on your PATH
 
 ## Instructions:
-checkout repo
-run "npm install" inside project dir
+* Clone repo
+* Run "npm install" inside project dir
+* You should be good to go!
+
+To launch the app run "npm run server:dev"
