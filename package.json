@@ -1,7 +1,7 @@
 {
-    "name": "angular4-webpack-starter",
+    "name": "angular4-webpack-seed",
     "version": "1.0.0",
-    "description": "Angular4 Starter Project with Webpack by David Beretta",
+    "description": "Angular4 Seed with Webpack by David Beretta",
     "repository": {
         "type": "git",
         "url": "https://github.com"
