@@ -1,4 +1,4 @@
-# angular4-webpack-seed
+# Angular 4 Webpack Seed
 
 ## Pre-requisites:
 Make sure nodejs and npm are installed and on your PATH
