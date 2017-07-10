@@ -1,0 +1,11 @@
+#node
+node_modules/
+
+#vs code
+.vscode/
+
+#bin
+dist/
+
+#OS
+.DS_Store

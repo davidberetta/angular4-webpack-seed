@@ -1,0 +1,56 @@
+{
+    "name": "angular4-webpack-starter",
+    "version": "1.0.0",
+    "description": "Angular4 Starter Project with Webpack by David Beretta",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "main": "./src/main.ts",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "rimraf dist && NODE_ENV=dev node node_modules/.bin/webpack",
+        "build:prod": "rimraf dist && NODE_ENV=prod node node_modules/.bin/webpack",
+        "server:dev": "webpack-dev-server -d --open --progress --profile --watch --inline --hot"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@angular/common": "~4.2.6",
+        "@angular/compiler": "~4.2.6",
+        "@angular/core": "~4.2.6",
+        "@angular/forms": "~4.2.6",
+        "@angular/http": "~4.2.6",
+        "@angular/platform-browser": "~4.2.6",
+        "@angular/platform-browser-dynamic": "~4.2.6",
+        "@angular/router": "~4.2.6",
+        "core-js": "^2.4.1",
+        "rxjs": "~5.4.2",
+        "zone.js": "~0.8.12"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "^4.2.5",
+        "@types/core-js": "^0.9.42",
+        "@types/node": "^8.0.8",
+        "@types/webpack": "^3.0.1",
+        "angular2-template-loader": "~0.6.2",
+        "awesome-typescript-loader": "~3.1.2",
+        "codelyzer": "^3.1.2",
+        "copy-webpack-plugin": "^4.0.1",
+        "css-loader": "^0.28.4",
+        "extract-text-webpack-plugin": "^2.1.2",
+        "json-loader": "^0.5.4",
+        "ng-router-loader": "^2.1.0",
+        "node-sass": "^4.5.3",
+        "raw-loader": "^0.5.1",
+        "rimraf": "^2.6.1",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "to-string-loader": "^1.1.5",
+        "ts-helpers": "^1.1.2",
+        "tslint": "~5.5.0",
+        "typescript": "~2.4.1",
+        "webpack": "~3.1.0",
+        "webpack-dev-server": "~2.5.1"
+    }
+}
